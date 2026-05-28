@@ -29,7 +29,6 @@ AI and data engineer with four years of professional experience building product
 - Architected and own a **data lake and Retrieval-Augmented Generation platform** for Brazilian legal jurisprudence, serving lawyers and specialized legal workflows.
 - Designed an end-to-end medallion pipeline (Bronze/Silver/Gold) that ingests, cleans, and structures court decisions, then embeds them via batch APIs into a binary-quantized Qdrant vector store running on AWS.
 - Led production infrastructure on AWS (EC2, S3, EBS, ECS, CodePipeline, Systems Manager, Athena), including a build-and-swap deployment architecture using ephemeral spot instances and S3 snapshots to cut running costs while preserving query availability.
-- Built LLM agent orchestration and retrieval logic on top of the vector store, with TLS-secured access via an Nginx reverse proxy.
 
 **AI Engineer** · Clinia — *2024 – 2025*
 
