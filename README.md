@@ -70,9 +70,6 @@ Git
 **Cloud**
 - [Google Cloud Digital Leader](https://www.credly.com/badges/86818fe5-96e5-44d4-b34d-d04f7cf8f68d/linked_in_profile)
 
-**Artificial Intelligence**
-- [CS50's Introduction to Artificial Intelligence with Python](https://courses.edx.org/certificates/21cbb01c71304cf1bf8aa37d04c254af) · HarvardX (edX)
-
 ---
 
 ## Languages
