@@ -1,6 +1,6 @@
 # João Pedro Ferreira Pereira
 
-AI and Data Engineer based in Porto Alegre, Brazil. Computer Science undergraduate at UFRGS, currently completing my final-year thesis on the interpretability of Transformer language models. Four years of professional experience building AI systems in production.
+AI and Data Engineer based in Porto Alegre, Brazil. Computer Science undergraduate at UFRGS, currently completing my undergratuaded thesis on the interpretability of Transformer language models. Four years of professional experience building AI systems in production.
 
 ---
 
