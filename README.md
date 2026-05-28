@@ -7,7 +7,7 @@ Porto Alegre, Brazil · [joaopedroferreirapereirakonig@gmail.com](mailto:joaoped
 
 ---
 
-AI and data engineer with four years of professional experience building production AI systems, from data pipelines and ML models to retrieval infrastructure at scale. I have architected and owned a Brazilian legal-jurisprudence data lake and RAG platform serving lawyers and specialized legal workflows. My final-year thesis investigates the geometric structure of internal representations across Transformer architectures, bridging applied engineering with interpretability research.
+AI and data engineer with four years of professional experience building production AI systems, from data pipelines and ML models to retrieval infrastructure at scale. 
 
 ---
 
