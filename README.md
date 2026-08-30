@@ -43,7 +43,7 @@ Full-cycle AI engineer with four years of professional experience taking product
 - Owned the design and construction of AI-driven workflows automating clinical and operational processes for health centers.
 - Built and shipped ML and LLM-based components end to end, from data pipelines through deployment and integration into product features.
 
-**Data Scientist** · Poatek (now TELUS Digital) — *2022 – 2024*
+**Consultant - Data Scientist** · Poatek (now TELUS Digital) — *2022 – 2024*
 
 - Developed machine-learning models for PII (personally identifiable information) detection, working with embeddings and NER pipelines over sensitive text data.
 - Delivered backend services and data-intensive applications for international clients as part of distributed, global engineering teams.
