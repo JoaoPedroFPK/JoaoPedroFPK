@@ -1,24 +1,30 @@
 # João Pedro Ferreira Pereira
 
-**AI & Data Engineer · Computer Science Undergraduate, UFRGS**
+**AI & Data Engineer · M.Sc. Student in Computer Science, UFRGS**
 
 Porto Alegre, Brazil · [joaopedroferreirapereirakonig@gmail.com](mailto:joaopedroferreirapereirakonig@gmail.com)
 [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-pedro-ferreira-2661561b8/) · [GitHub — @JoaoPedroFPK](https://github.com/JoaoPedroFPK)
 
 ---
 
-AI and data engineer with four years of professional experience building production AI systems, from data pipelines and ML models to retrieval infrastructure at scale. 
+Full-cycle AI engineer with four years of professional experience taking production AI systems end to end: agent design and orchestration, retrieval at scale, evaluation and instrumentation, and the data and cloud infrastructure underneath. Currently pursuing a master's degree in Computer Science at UFRGS, researching interpretability of transformer language models.
 
 ---
 
 ## Education
 
-**B.Sc. in Computer Science** · Universidade Federal do Rio Grande do Sul (UFRGS) — *Expected 2026*
+**M.Sc. in Computer Science** · Programa de Pós-Graduação em Computação (PPGC), Universidade Federal do Rio Grande do Sul (UFRGS) — *2026 – Present*
 
-**Final-Year Thesis (TCC):** *Cross-Architectural Analysis of Layer-wise Representations in Transformer Language Models on a Word Association Task*
-
-- Studies how attention mechanisms and positional encodings shape layer-wise semantic geometry across seven models (Mistral, Qwen, BERT, T5, ModernBERT, and randomized controls), using a controlled word-association task to isolate architecture and training-objective effects.
+- Research line: Machine Learning, Knowledge Representation and Reasoning.
 - Advised by Prof. Dr. Bruno Iochins Grisci (Instituto de Informática, UFRGS).
+- Research focus: interpretability of transformer-based models, with emphasis on the geometry of hidden representations across layers and architectures.
+
+**B.Sc. in Computer Science** · Universidade Federal do Rio Grande do Sul (UFRGS) — *2026*
+
+**Final-Year Thesis (TCC):** *Cross-Architectural Analysis of Layer-wise Representations in Transformer Language Models on a Word Association Task*. advised by Prof. Dr. Bruno Iochins Grisci.
+
+- Studied how attention mechanisms and positional encodings shape layer-wise semantic geometry across seven models (Mistral, Qwen, BERT, T5, ModernBERT, and randomized controls), using a controlled word-association task to isolate architecture and training-objective effects.
+- Findings include a consistent non-monotonic depth profile of representational quality across all trained models, and a substantial gap between embedding-similarity rankings and generated outputs in causal language models.
 
 ---
 
@@ -26,16 +32,18 @@ AI and data engineer with four years of professional experience building product
 
 **Consultant — AI Engineering** · Euphrates — *2025 – Present*
 
-- Architected and own a **data lake and Retrieval-Augmented Generation platform** for Brazilian legal jurisprudence, serving lawyers and specialized legal workflows.
-- Designed an end-to-end medallion pipeline (Bronze/Silver/Gold) that ingests, cleans, and structures court decisions, then embeds them via batch APIs into a binary-quantized Qdrant vector store running on AWS.
-- Led production infrastructure on AWS (EC2, S3, EBS, ECS, CodePipeline, Systems Manager, Athena), including a build-and-swap deployment architecture using ephemeral spot instances and S3 snapshots to cut running costs while preserving query availability.
+- Own a production AI platform for Brazilian legal jurisprudence end to end, across **agent design, retrieval, evaluation, and infrastructure**, serving lawyers and specialized legal workflows.
+- **Agents:** design and implement multi-step, tool-using LLM systems in production, from workflow architecture and orchestration through provider strategy, concurrency, and operational governance.
+- **Evaluation:** define how system quality is measured, building staged evaluation harnesses that decompose agentic pipelines into measurable components and combine automated scoring with structured human review.
+- **Retrieval:** own the retrieval layer at the scale of tens of millions of vectors, covering embedding and indexing strategy, quality of results on Portuguese legal text, and the performance and cost trade-offs that scale imposes.
+- **Data and infrastructure:** designed the ingestion and curation pipeline behind the platform, and run it on AWS with a deployment architecture built for cost control without loss of availability.
 
 **AI Engineer** · Clinia — *2024 – 2025*
 
 - Owned the design and construction of AI-driven workflows automating clinical and operational processes for health centers.
 - Built and shipped ML and LLM-based components end to end, from data pipelines through deployment and integration into product features.
 
-**Software Engineer** · Poatek (now TELUS Digital) — *2022 – 2024*
+**Data Scientist** · Poatek (now TELUS Digital) — *2022 – 2024*
 
 - Developed machine-learning models for PII (personally identifiable information) detection, working with embeddings and NER pipelines over sensitive text data.
 - Delivered backend services and data-intensive applications for international clients as part of distributed, global engineering teams.
@@ -45,7 +53,7 @@ AI and data engineer with four years of professional experience building product
 ## Technical Skills
 
 - **Languages:** Python, C#, JavaScript / TypeScript, SQL, Bash
-- **ML & AI:** PyTorch, Hugging Face Transformers, LangChain, RAG systems, LLM agent orchestration, embeddings & NER pipelines, OpenAI / Anthropic APIs, CUDA / GPU programming
+- **ML & AI:** PyTorch, Hugging Face Transformers, LangChain / LangGraph, RAG systems, LLM agent orchestration, embeddings & NER pipelines, model evaluation and instrumentation, OpenAI / Anthropic APIs, CUDA / GPU programming
 - **Data & Vector Infra:** Qdrant, Apache Spark, Athena / Presto, Pandas / Polars, medallion data pipelines
 - **Backend & Web:** FastAPI / Flask, Node.js, React, PostgreSQL
 - **Cloud & Infrastructure:** AWS (EC2, S3, EBS, ECS, CodePipeline, Systems Manager, Athena), GCP, Docker, Nginx, distributed systems, HPC
