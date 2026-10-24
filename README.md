@@ -61,28 +61,8 @@ Full-cycle AI engineer with four years of professional experience taking product
 
 ---
 
-## Certifications
-
-**Deep Learning Specialization** — DeepLearning.AI (Coursera)
-
-- [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/verify/EDF6LHDV6GHQ)
-- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/verify/3SMGN2JHX2GK)
-- [Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/verify/EDF6LHDV6GHQ)
-- [Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/JU2LP9P8BAP3)
-
-**Accelerated Computing** — NVIDIA
-
-- [Fundamentals of Accelerated Computing with CUDA Python](https://learn.nvidia.com/certificates?id=djt9ZtEaTDqr6o_trN69Bw)
-- [Fundamentals of Accelerated Computing with Modern CUDA C](https://learn.nvidia.com/certificates?id=k5CcYJtdRk6S8MD_y6TnJQ)
-
-**Cloud**
-
-- [Google Cloud Digital Leader](https://www.credly.com/badges/86818fe5-96e5-44d4-b34d-d04f7cf8f68d/linked_in_profile)
-
----
-
 ## Languages
 
 - **Portuguese** — Native
-- **English** — C2 (Proficient)
+- **English** — Native
 - **Spanish** — Intermediate
