@@ -7,15 +7,15 @@ Porto Alegre, Brazil · [joaopedroferreirapereirakonig@gmail.com](mailto:joaoped
 
 ---
 
-AI engineer and consultant with four years in production systems, including two years delivering LLM products on AWS and GCP. I own the full AI engineering cycle: scoping which problems justify an AI system, building the agentic workflow, measuring it with evaluation frameworks, and operating it with tracing, alerting and incident response. Equally at home in industry, consulting and academia: I move between business constraints and client conversations on one side and research methodology and rigor on the other, and bring each to bear on the other. M.Sc. student at UFRGS researching interpretability of transformer language models.
+Engineer with four years of professional experience, first in data science and backend engineering and, for the past two years, in AI engineering, delivering cloud-native LLM products. I own the full AI engineering cycle: scoping which problems justify an AI system, building the agentic workflow, measuring it with evaluation frameworks, and operating it with tracing, alerting and incident response. Comfortable in industry, consulting and academia, with the business judgment of the first two and the methodological rigor of the third. M.Sc. student at UFRGS researching interpretability of transformer language models.
 
 ---
 
 ## Experience
 
-**AI Engineering Consultant · Euphrates** · Porto Alegre, Brazil · 2025 to present
+**AI Engineering Consultant · Euphrates (founding team)** · Porto Alegre, Brazil · 2025 to present
 
-Consulting role spanning client-facing scoping and technical delivery. Take part in commercial meetings, map clients' open problems to viable AI applications, and shape what gets proposed and built. Lead engineer on client platforms across AWS and GCP; representative engagements below.
+Joined as part of the founding team of an AI consultancy; helped map the company's opportunities and technical approaches as well as clients'. Take part in commercial meetings, map clients' open problems to viable AI applications, and shape what gets proposed and built. Engineer cloud-native AI solutions for clients end to end; representative engagements below.
 
 **Legal AI platform.** Co-built a production legal AI assistant over a retrieval index of tens of millions of case-law vectors. Owned the knowledge layer end to end (building, evaluating and operating it), the data platform and CI/CD; co-owned agent orchestration.
 
