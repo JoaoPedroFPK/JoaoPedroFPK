@@ -7,7 +7,7 @@ Porto Alegre, Brazil · [joaopedroferreirapereirakonig@gmail.com](mailto:joaoped
 
 ---
 
-Engineer with four years of professional experience, first in data science and backend engineering and, for the past two years, in AI engineering, delivering cloud-native LLM products. I own the full AI engineering cycle: scoping which problems justify an AI system, building the agentic workflow, measuring it with evaluation frameworks, and operating it with tracing, alerting and incident response. Comfortable in industry, consulting and academia, with the business judgment of the first two and the methodological rigor of the third. M.Sc. student at UFRGS researching interpretability of transformer language models.
+Engineer with four years of professional experience, first in data science and backend engineering and, for the past two years, in AI engineering, delivering cloud-native LLM products. I own the full AI engineering cycle: scoping which problems justify an AI system, building the agentic workflow, measuring it with evaluation frameworks, and operating it with tracing, alerting and incident response. Comfortable in industry, consulting and academia. M.Sc. student at UFRGS researching interpretability of transformer language models.
 
 ---
 
@@ -15,21 +15,22 @@ Engineer with four years of professional experience, first in data science and b
 
 **AI Engineering Consultant · Euphrates (founding team)** · Porto Alegre, Brazil · 2025 to present
 
-Joined as part of the founding team of an AI consultancy; helped map the company's opportunities and technical approaches as well as clients'. Take part in commercial meetings, map clients' open problems to viable AI applications, and shape what gets proposed and built. Engineer cloud-native AI solutions for clients end to end; representative engagements below.
+Part of the founding team of an AI consultancy. Take part in commercial meetings, turn clients' open problems into AI proposals they can act on, present technical approaches to client stakeholders, and then build what is sold. Deliver cloud-native AI systems end to end; representative engagements below.
 
-**Legal AI platform.** Co-built a production legal AI assistant over a retrieval index of tens of millions of case-law vectors. Owned the knowledge layer end to end (building, evaluating and operating it), the data platform and CI/CD; co-owned agent orchestration.
+**Legal AI platform (production).** Co-built a production legal AI assistant for Brazilian lawyers over a retrieval index of tens of millions of case-law vectors, sourced from 60+ courts. Owned the knowledge layer end to end (building, evaluating and operating it), the data platform and CI/CD; co-owned agent orchestration.
 
-- **Agentic workflows:** multi-step, tool-using LangGraph agents with human-in-the-loop gates; async LLM execution, multi-provider routing with fallbacks, context engineering and prompt-injection hardening.
-- **Semantic retrieval:** index design and quantization, multi-tenant search under latency budgets, reranking, hybrid dense and lexical search, and citation grounding that keeps every generated reference traceable to its source.
-- **Evaluation:** LLM-as-judge framework on Langfuse with rubric and grounding metrics, production-derived benchmarks, regression gates on prompt changes, and controlled model experiments with cost tracking.
+- **Agentic workflows:** multi-step, tool-using LangGraph agents with function calling and async LLM execution; multi-provider model routing; context engineering.
+- **Guardrails:** human-in-the-loop approval gates, provider fallbacks, prompt-injection hardening, and citation grounding that keeps every generated reference traceable to its source.
+- **Retrieval-augmented generation:** index design and binary quantization, multi-tenant search under latency budgets, hybrid dense and lexical retrieval, reranking.
+- **Evaluation:** LLM-as-judge framework on Langfuse with rubric and grounding metrics, benchmarks built from production traffic, regression gates on prompt changes, and controlled model experiments with cost tracking.
 - **Observability and reliability:** tracing, cost attribution, metrics and alerting; incident response and root-cause analysis; admission control, circuit breakers and typed data contracts.
-- **Data platform and delivery:** medallion ingestion pipeline on Spark and serverless embedding orchestration over millions of documents; CI/CD with smoke tests and production approval gates; team engineering norms on typing, testing and cost.
+- **Data platform and delivery:** medallion ingestion pipeline on Spark and serverless embedding orchestration over millions of documents; CI/CD with smoke tests and production approval gates; set team engineering norms on typing, testing and cost.
+
+**E-commerce analytics SaaS.** Built the generative AI layer over a multi-store analytics backend: conversational agents with authenticated tool access to each store's sales and marketing data, and the access-control model behind them.
 
 **Precision agriculture data platform.** Designed and built a microservice pipeline that turns drone flight paths into zones of interest and models multi-sensor satellite and weather data into agronomic metrics.
 
-**E-commerce analytics SaaS.** Built the AI layer over a multi-store analytics backend: conversational agents with authenticated tool access to each store's sales and marketing data, and the access-control model behind them.
-
-**AI Engineer · Clinia** · 2024 to 2025
+**AI Engineer · Clinia** (health-tech) · 2024 to 2025
 
 - Helped pivot the product from rule-based chatbots to an LLM-led, agent-style conversational experience for health centers, redesigning the interaction model around tool-using agents.
 - Built and shipped the LLM and ML components end to end, from data pipelines through deployment and integration into product features.
@@ -37,7 +38,7 @@ Joined as part of the founding team of an AI consultancy; helped map the company
 **Data Science Consultant · Poatek (now TELUS Digital)** · 2022 to 2024
 
 - Built PII-detection models over sensitive text using embeddings and NER pipelines.
-- Delivered backend services and data-intensive applications for international clients in distributed, global engineering teams.
+- Delivered backend services and data-intensive applications for international clients as part of distributed global engineering teams.
 
 ---
 
@@ -50,8 +51,7 @@ Joined as part of the founding team of an AI consultancy; helped map the company
 
 **B.Sc. in Computer Science** · UFRGS · 2026
 
-- Thesis: *Cross-Architectural Analysis of Layer-wise Representations in Transformer Language Models on a Word Association Task*. Compared seven transformer architectures on a controlled word-association task to isolate how attention type and positional encoding shape layer-wise semantic geometry.
-- Findings: a consistent non-monotonic depth profile of representational quality across all trained models, and a large gap between embedding-similarity rankings and generated outputs in causal LMs. Preprint in preparation.
+- Thesis: *Cross-Architectural Analysis of Layer-wise Representations in Transformer Language Models on a Word Association Task*. Compared seven transformer architectures to isolate how attention type and positional encoding shape layer-wise semantic geometry; found a consistent non-monotonic depth profile and a large gap between embedding-similarity rankings and generated outputs in causal LMs. Preprint in preparation.
 
 ---
 
@@ -59,22 +59,22 @@ Joined as part of the founding team of an AI consultancy; helped map the company
 
 **Guest lecturer and mentor · Amanhã Tech (Fundo Amanhã, UFRGS)** · retention program for low-income computer science students
 
-- Lecture on AI engineering careers and the path from UFRGS to industry; mentor students through their first technical roles.
+- Lecture on AI engineering careers and the path from university to industry; mentor students through their first technical roles.
 
 ---
 
 ## Technical skills
 
-- **Agentic engineering:** LangGraph, LangChain, multi-provider fallback and model routing, structured outputs, tool design, human-in-the-loop interrupts, prompt management (Langfuse), context engineering; OpenAI, Anthropic, Gemini, Cohere APIs
-- **Semantic retrieval:** Qdrant (HNSW, binary quantization, tenant indexes, alias and volume swaps), hybrid BM25 and dense search, reranking, chunking strategy, embedding pipelines
-- **Evaluations and benchmarking:** LLM-as-judge rubrics, grounded detectors, Langfuse datasets and experiments, regression gates in CI, A/B designs with noise-floor controls, cost ledgers
-- **Observability and SRE:** Langfuse tracing, CloudWatch metrics and alarms, Slack alerting with storm control, runbooks and incident write-ups, circuit breakers, admission control, capacity planning
+- **Agentic engineering:** LangGraph, LangChain, tool use and function calling, model routing and multi-provider fallback, structured outputs, human-in-the-loop interrupts, context engineering, prompt management (Langfuse); OpenAI, Anthropic, Gemini, Cohere APIs
+- **Retrieval and RAG:** Qdrant (HNSW, binary quantization, tenant indexes, alias swaps), hybrid BM25 and dense search, reranking, chunking strategy, embedding pipelines
+- **Evaluation and guardrails:** LLM-as-judge rubrics, grounding detectors, prompt-injection hardening, Langfuse datasets and experiments, regression gates in CI, A/B designs with noise-floor controls, cost ledgers
+- **Observability and SRE:** Langfuse tracing, CloudWatch metrics and alarms, Slack alerting, runbooks and incident write-ups, circuit breakers, admission control, capacity planning
 - **Data engineering:** Apache Spark, EMR Serverless, Athena and Glue, S3 medallion pipelines, Step Functions, Lambda, BigQuery, DynamoDB, MongoDB, PostgreSQL; geospatial processing (Rasterio, GeoPandas)
-- **Cloud and delivery:** AWS (EC2, ECS and Fargate, S3 and EBS, SSM, CodePipeline and CodeBuild, CloudFormation, CDK, EMR Serverless, Step Functions, Lambda, CloudWatch), GCP (App Engine, Cloud Functions, BigQuery, Cloud Storage, Secret Manager), Docker, nginx, gunicorn, GitHub Actions, mypy and ruff
+- **Cloud and delivery:** AWS (ECS and Fargate, EC2, S3, Lambda, Step Functions, CodePipeline, CloudFormation, CDK, CloudWatch), GCP (Cloud Run, App Engine, Cloud Functions, BigQuery), Docker, GitHub Actions, mypy and ruff
 - **Languages and ML:** Python (primary), TypeScript, SQL, Bash, C#; PyTorch, Hugging Face Transformers
 
 ---
 
 ## Languages
 
-Portuguese (native) · English (fluent) · Spanish (intermediate)
+Portuguese (native) · English (fluent) · Spanish (intermediate) · Italian (intermediate)
